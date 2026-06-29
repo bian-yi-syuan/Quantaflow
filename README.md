@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="AppIcon.png" width="180">
+  <img src="AppIcon.png" width="160">
 </p>
 
 <h1 align="center">
@@ -14,13 +14,17 @@ Business Quotation Workflow Application
 Generate professional quotations, export PDF and Excel (XLSX), print via AirPrint, and share documents directly from your iPhone.
 </p>
 
+<p align="center">
+  <img src="Assets/hero.png" width="100%">
+</p>
+
 ---
 
 # 📱 Overview
 
 Quantaflow is a native iOS application designed to streamline business quotation workflows.
 
-The application enables users to create quotations, generate PDF documents, export Microsoft Excel (XLSX) files, print via AirPrint, and share documents directly from their devices.
+The application enables users to create quotations, manage customers and items, generate PDF documents, export Microsoft Excel (XLSX) reports, print via AirPrint, and share documents directly from their devices.
 
 Built with SwiftUI, Quantaflow focuses on clean UI/UX, maintainable architecture, multilingual accessibility, and practical business productivity.
 
@@ -28,42 +32,67 @@ Built with SwiftUI, Quantaflow focuses on clean UI/UX, maintainable architecture
 
 # ✨ Features
 
-- 📄 Create professional quotations
-- 📑 Generate PDF documents
-- 📊 Export Microsoft Excel (XLSX)
-- 🖨 AirPrint support
-- 📤 Share documents
-- 📱 Native iOS interface
-- 🌙 Dark Mode support
+- 📄 Create professional business quotations
+- 📑 Generate polished PDF documents
+- 📊 Export Microsoft Excel (XLSX) reports
+- 🖊 Add digital signatures to quotations
+- 🖨 Print documents via AirPrint
+- 📤 Share PDF and Excel files directly from iPhone
+- 📈 Track quotation status and monthly performance
+- ⚙️ Customize company information, currency, and quotation settings
+- 📱 Native iOS interface built with SwiftUI
+- 🌙 Light Mode and Dark Mode support
 - 🌍 Multi-language user interface
+  - 🇯🇵 日本語
   - 🇺🇸 English
-  - 🇯🇵 日本語 (Japanese)
-  - 🇹🇼 Traditional Chinese (繁體中文)
+  - 🇹🇼 繁體中文
+
+---
+
+# 📷 Screenshots
+
+## Smart quotation workflow
+
+<p align="center">
+  <img src="Screenshots/01-home-light-jp.png" width="32%">
+  <img src="Screenshots/02-pdf-preview.png" width="32%">
+  <img src="Screenshots/03-dashboard.png" width="32%">
+</p>
+
+## Export, signature, settings, and reports
+
+<p align="center">
+  <img src="Screenshots/04-export-options.png" width="32%">
+  <img src="Screenshots/05-excel-report.png" width="32%">
+  <img src="Screenshots/06-signature.png" width="32%">
+</p>
+
+<p align="center">
+  <img src="Screenshots/07-home-dark-en.png" width="80%">
+</p>
 
 ---
 
 # 🛠 Tech Stack
 
-### Language
+## Language
 
 - Swift
 
-### Framework
+## Frameworks
 
 - SwiftUI
 - UIKit
 - PDFKit
 
-### Document
+## Document Generation
 
 - PDF Generation
 - Microsoft Excel (XLSX) Export
-
-### Printing
-
+- File Sharing
 - AirPrint
 
-### Development
+## Development Tools
 
 - Xcode
 - Git
@@ -71,26 +100,58 @@ Built with SwiftUI, Quantaflow focuses on clean UI/UX, maintainable architecture
 
 ---
 
-# 📷 Screenshots
-
-Coming Soon...
-
----
-
 # 🏗 Architecture
 
-Coming Soon...
+Quantaflow is structured with a clear separation of UI, data models, services, and document generation logic.
+
+```text
+Quantaflow
+├── Models
+│   ├── Quotation
+│   ├── Customer
+│   ├── Item
+│   └── CompanyProfile
+│
+├── Views
+│   ├── Home
+│   ├── Quotations
+│   ├── Customers
+│   ├── Settings
+│   └── Export
+│
+├── Services
+│   ├── PDFGenerator
+│   ├── ExcelExporter
+│   ├── PrintService
+│   └── ShareService
+│
+└── Resources
+    ├── Localization
+    └── Assets
+
+```markdown
+
+The project is designed to keep the codebase maintainable, readable, and easy to extend with new business features.
 
 ---
 
 # 🚀 Future Improvements
 
 - iCloud Sync
+
 - User Authentication
-- Template Management
-- PDF Template Customization
+
 - Cloud Backup
+
+- PDF Template Customization
+
+- Advanced Quotation Templates
+
 - Business Analytics Dashboard
+
+- Customer History Management
+
+- AI-assisted Quotation Suggestions
 
 ---
 
@@ -101,3 +162,9 @@ Coming Soon...
 Mobile & Web Application Developer
 
 🇹🇼 Taiwan
+
+---
+
+# 📌 Project Purpose
+
+This project was created as a portfolio application to demonstrate iOS development skills, business workflow design, document generation, multilingual UI implementation, and practical mobile productivity features.
