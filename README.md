@@ -128,8 +128,8 @@ Quantaflow
 └── Resources
     ├── Localization
     └── Assets
+```
 
----
 The project is designed to keep the codebase maintainable, readable, and easy to extend with new business features.
 
 ---
@@ -137,12 +137,19 @@ The project is designed to keep the codebase maintainable, readable, and easy to
 # 🚀 Future Improvements
 
 - iCloud Sync
+
 - User Authentication
+
 - Cloud Backup
+
 - PDF Template Customization
+
 - Advanced Quotation Templates
+
 - Business Analytics Dashboard
+
 - Customer History Management
+
 - AI-assisted Quotation Suggestions
 
 ---
