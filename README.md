@@ -15,6 +15,21 @@ Generate professional quotations, export PDF and Excel (XLSX), print via AirPrin
 </p>
 
 ⸻
+# 🎬 Demo
+
+## Main Navigation
+
+<p align="center">
+  <img src="Assets/demo-navigation.gif" width="320">
+</p>
+
+## Quotation Workflow
+
+<p align="center">
+  <img src="Assets/demo-quotation-workflow.gif" width="320">
+</p>
+
+⸻
 
 📱 Overview
 
