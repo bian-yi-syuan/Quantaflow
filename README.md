@@ -171,3 +171,12 @@ Mobile & Web Application Developer
 📌 Project Purpose
 
 This project was created as a portfolio application to demonstrate iOS development skills, business workflow design, document generation, multilingual UI implementation, and practical mobile productivity features.
+
+⸻
+
+# ▶️ How to Run
+
+1. Clone this repository.
+2. Open `Quantaflow.xcodeproj` in Xcode.
+3. Select an iPhone simulator.
+4. Build and run the project.
