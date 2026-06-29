@@ -98,11 +98,10 @@ Development Tools
 
 ⸻
 
-# 🏗 Architecture
+🏗 Architecture
 
 Quantaflow is structured with a clear separation of UI, data models, services, and document generation logic.
 
-```text
 Quantaflow
 ├── Models
 │   ├── Quotation
@@ -126,7 +125,6 @@ Quantaflow
 └── Resources
     ├── Localization
     └── Assets
-```
 
 The project is designed to keep the codebase maintainable, readable, and easy to extend with new business features.
 
