@@ -177,6 +177,6 @@ This project was created as a portfolio application to demonstrate iOS developme
 # ▶️ How to Run
 
 1. Clone this repository.
-2. Open `Quantaflow.xcodeproj` in Xcode.
+2. Open `PDFAPP.xcodeproj` in Xcode.
 3. Select an iPhone simulator.
 4. Build and run the project.
